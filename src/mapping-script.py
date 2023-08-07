@@ -19,7 +19,7 @@ with open(input_file_path, 'r') as input_file:
     json_data = json.load(input_file)
 
 # Create a new list to hold the new entries
-new_entries = []
+new_entries = {}
 
 # Loop through each entry in the JSON and add a new key-value pair
 # for entry in json_data:
@@ -29,19 +29,18 @@ new_entries = []
 
 # Loop through each entry in the input JSON data
 for entry in json_data["signals"]:
-    # Create a new entry with the desired fields
     try:
         # Attempt to get the user_id from the entry
         user_id = entry["id"]
     except KeyError:
         # Handle the case where "id" field is missing in the entry
         raise Exception("Error: 'id' field not found in an entry.")
+
+    # Generate a new UUID
     unique = uuid.uuid4()
-    new_entry = {
-        user_id: str(unique)
-    }
-    # Append the new entry to the list of new entries
-    new_entries.append(new_entry)
+
+    # Add a new key-value pair to the new_entries dictionary
+    new_entries[user_id] = str(unique)
 
 # Write the new entries to a separate JSON file
 with open(output_file_path, 'w') as output_file:
