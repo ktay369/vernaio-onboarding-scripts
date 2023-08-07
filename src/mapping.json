@@ -1,0 +1,827 @@
+[
+    {
+        "ADV_AVI_SCHROT": "b2acd336-e600-40e1-b88d-2494eb6d8ea8"
+    },
+    {
+        "ADV_DIV_SCHROT": "e47568f0-6f6b-48db-bd49-cb3030e344ba"
+    },
+    {
+        "ADV_DRI_HBI_SCHROT": "fdeb8fe3-3a76-4be7-8e13-1d961e34e90d"
+    },
+    {
+        "ADV_GEW_SCHROT": "ff9f3705-878e-4ef2-a022-b50c1bda225c"
+    },
+    {
+        "ADV_HECKETT_A": "4ebca89a-998d-4d54-b33d-0746e7a3cd0b"
+    },
+    {
+        "ADV_HECKETT_BCD": "e85606b8-1ccf-4077-b986-8fda77f6f9d7"
+    },
+    {
+        "ADV_MENG_SCHROT": "c87f19e6-3aae-41ca-b60c-44b9e09ce247"
+    },
+    {
+        "ADV_RIJKOUD": "cdb3cd02-46aa-4215-9438-032043277a22"
+    },
+    {
+        "ADV_RIJKOUD_LAAGS": "9d244647-ac91-4b16-a752-319b2677bfb9"
+    },
+    {
+        "ADV_SCHOON_SCHROT": "9aedf779-d218-439e-8927-95dc8b7cfb1a"
+    },
+    {
+        "ADV_SRT_TRIM_SCHR2": "5893e8f4-01de-4285-b278-3d0d3fc2af4b"
+    },
+    {
+        "ADV_SRT_TRIM_SCHRT": "76f031f5-db1c-43d7-82b8-8a6a7d0f2a81"
+    },
+    {
+        "ADV_TRIM_GEW_SCHR2": "074fb73c-3cae-4b43-a279-85f2dab59f5c"
+    },
+    {
+        "ADV_TRIM_GEW_SCHRT": "d4c79775-0816-4940-852a-ec7d33db6401"
+    },
+    {
+        "ADV_ZWAAR_SCHROT": "304ee1d8-9e41-45fd-9d34-0be502beea59"
+    },
+    {
+        "AFW_NIVO_STL_LANS": "9fd2553a-3f07-458b-bac2-2deccbe4a699"
+    },
+    {
+        "AVI": "76042c08-7553-4368-b1f1-36562577c86a"
+    },
+    {
+        "BANDEN": "a425f9d4-001e-4c71-9a52-5eb26c40900a"
+    },
+    {
+        "BB_BLPATR_PRESET": "3b4b3fd6-fa9b-4d45-aac7-db104e47dc99"
+    },
+    {
+        "BB_IND_PRESET": "14faa5e8-6e7c-49c7-815f-1fbc48651e42"
+    },
+    {
+        "BEST_REST_STL_CONV": "36802f2d-b41b-456f-b4a8-9bdd58d5b959"
+    },
+    {
+        "BLAASSCHEMA_PRESET": "d59a5793-e26a-48c1-8831-b39f0a9ce8be"
+    },
+    {
+        "BLOKWALS_SCHROT": "ff93c8d6-0eb4-45eb-8713-f7b7d503a351"
+    },
+    {
+        "CODE_BLAASPERIODE": "cedac26e-33ec-45a0-bce4-6264d71ceeb4"
+    },
+    {
+        "CODE_MONOCON": "da44c901-ddad-4b3c-813c-901b50774cad"
+    },
+    {
+        "CODE_UITMELKEN": "2292b180-1b30-452b-8b66-f0f63bb1fd70"
+    },
+    {
+        "CODE_VOORSTOP": "74beb713-6249-4dcc-8701-f9f78ff46b84"
+    },
+    {
+        "CON_ALG_A_2047TI01.PV": "bb20ee36-557c-434a-8cd8-c6069794bb51"
+    },
+    {
+        "CON_ALG_A_2160QI50.PV": "e66c23d9-bf71-41de-8882-9734329d1f36"
+    },
+    {
+        "CON_C21_A_1_AM05PF.PV-waarde": "d40c8a6a-288c-4d17-be4d-3b5a2fd527dd"
+    },
+    {
+        "CON_C21_A_1_O2QLNO.PV": "69adf0ac-6556-4a17-a563-0b965c13d1ae"
+    },
+    {
+        "CON_C21_A_1_O2_TOT.PV": "fc333909-e4cd-4d03-8d13-29309c06bbdc"
+    },
+    {
+        "CON_C21_A_2119FC11.PV": "0438e29a-2a10-4c9c-a101-b779bf12132b"
+    },
+    {
+        "CON_C21_A_2119FC12.PV": "8d223671-74b2-45c0-9f96-838a99822876"
+    },
+    {
+        "CON_C21_A_2119FC13.PV": "1dcf2fcb-c764-4ce0-b811-f478b7eedcea"
+    },
+    {
+        "CON_C21_A_2119FC14.PV": "e5c216b8-2894-4eab-b9bc-91487989ad92"
+    },
+    {
+        "CON_C21_A_2119FC15.PV": "16dcd906-c3fd-442d-9b46-6a58b51d5be5"
+    },
+    {
+        "CON_C21_A_2119FC16.PV": "5bb68e1e-cdb4-4641-a4fc-475c402bed9e"
+    },
+    {
+        "CON_C21_A_2119FQ20.PV": "650637cc-1301-4774-acd5-f94bbb63cdd0"
+    },
+    {
+        "CON_C21_A_2119FQ21.PV": "a0a0377a-7dde-4ad9-9f2d-966d9b4cf1b8"
+    },
+    {
+        "CON_C21_A_2119PI41.PV": "ae3d8d43-0c02-4491-9158-a22330f3d50a"
+    },
+    {
+        "CON_C21_A_2119PI42.PV": "41321e93-ec0e-4bd4-aae5-3832e551bab0"
+    },
+    {
+        "CON_C21_A_2119PI43.PV": "aea581f1-45ed-42a9-9910-e36bca6e1206"
+    },
+    {
+        "CON_C21_A_2119PI44.PV": "bbc9f37f-02e6-4ca9-9b46-1c28f245eaf2"
+    },
+    {
+        "CON_C21_A_2119PI45.PV": "19403086-c3e5-4fcf-b5d4-ae5b49264cc7"
+    },
+    {
+        "CON_C21_A_2119PI46.PV": "aa5fd4de-d35a-4911-aa00-12924c0f3220"
+    },
+    {
+        "CON_C21_A_2145FC07.PV": "59b55fce-9f62-4dda-9cde-dc38e1c4a880"
+    },
+    {
+        "CON_C21_A_2145FC07.SP": "0e42a643-521a-4fda-a3a7-4d439a34cf5a"
+    },
+    {
+        "CON_C21_A_2145FC09.PV": "3bf580a3-ff7d-4eaa-a396-288e9184a31a"
+    },
+    {
+        "CON_C21_A_2145FC37.PV": "ff97cd15-5b9b-46e2-aa2f-2a20d8465c7a"
+    },
+    {
+        "CON_C21_A_2145FC37.SP": "0c074714-3acb-4412-ba9e-8a8da5c515e7"
+    },
+    {
+        "CON_C21_A_2145FC39.PV": "03cab75a-93b5-4207-8b6b-6e7212db578a"
+    },
+    {
+        "CON_C21_A_2145FY65.PV": "05ae4772-ba41-4d00-b39f-7a8ef41c2e48"
+    },
+    {
+        "CON_C21_A_2145ZC96.PV": "fbcad075-507f-4b30-845d-d42bb15f7aec"
+    },
+    {
+        "CON_C21_A_2147TI07.PV": "23ee07e2-85df-49fd-979d-d0ece48886e7"
+    },
+    {
+        "CON_C21_A_2147TI37.PV": "cd2ff5db-9240-46fc-850f-df7406d1ddec"
+    },
+    {
+        "CON_C21_A_2160FC73.PV": "7c227409-901a-477b-8ff1-a57e0064ee09"
+    },
+    {
+        "CON_C21_A_2160PC02.PV": "5cd142ab-98f8-4333-9b26-98ca0672e1c3"
+    },
+    {
+        "CON_C21_A_2160PY76.PV": "efbefbf3-60d3-4101-b8f3-87cd8a9af877"
+    },
+    {
+        "CON_C21_A_2160QC75.OP": "5f7cb8ad-f37d-48ca-a932-277ebc298327"
+    },
+    {
+        "CON_C21_A_2160QC75.PV": "b3c10696-59d4-4aba-9cf9-9ea952f64335"
+    },
+    {
+        "CON_C21_A_2160QC75.SP": "982b26b9-69c6-4c5a-93fa-16ba827d446c"
+    },
+    {
+        "CON_C21_A_2160QI04.PV": "9a5e03df-78d3-49de-92e7-d94edd9c8f35"
+    },
+    {
+        "CON_C21_A_2160QI05.PV": "73e14509-8266-4673-828a-4dd3b4ee143a"
+    },
+    {
+        "CON_C21_A_2160QI06.PV": "153f1d5d-38da-44e8-8764-2180d9268f33"
+    },
+    {
+        "CON_C21_A_2160QI07.PV": "87977289-4009-46f8-8ab8-cedc52403690"
+    },
+    {
+        "CON_C21_A_2160QI13.PV": "8646f0af-e6dc-4c7d-ae13-877b66e6aba3"
+    },
+    {
+        "CON_C21_A_2160QI30.PV": "46f5c4b2-0c44-40ee-ba46-8a01f45680d5"
+    },
+    {
+        "CON_C21_A_2160TI09.PV": "9b46bc7a-0f71-4ac1-9bf8-3d509177b90a"
+    },
+    {
+        "CON_C21_A_2160ZC02.PV": "06d1fa87-5bd2-4902-99a3-edec3b3d3d51"
+    },
+    {
+        "CON_C21_A_2160ZC02.SP": "707376e1-b664-4c96-8474-0ec475cee88b"
+    },
+    {
+        "CON_C21_A_2160ZX02.OP": "268d2036-5a3c-411d-9a6a-368fc5151aa1"
+    },
+    {
+        "CON_C21_A_21SBNIVO.PV": "40e5502b-fbb4-4b37-83cd-ed608c3039cf"
+    },
+    {
+        "CON_C21_A_21SCNIVO.PV": "23cb5622-0a79-496f-b1c3-5c723de1683b"
+    },
+    {
+        "CON_C21_A_21SLIND.PV": "c392237f-c110-4bda-984b-d2593de20654"
+    },
+    {
+        "CON_C21_A_OPI_CV21SlobRatioDelta4S": "8ad7c492-eb14-40a1-b292-314e78876e3b"
+    },
+    {
+        "CON_C21_A_P2160QI11.PV": "b6b1956f-999f-41b9-9a77-50b5d74e4ab6"
+    },
+    {
+        "CON_C21_A_SlobRatioCumm": "0699df22-ad25-491f-9d05-c7712e2c3e39"
+    },
+    {
+        "CON_C21_A_SlobRatioDelta": "a92cebfc-aece-40ec-98ab-7c08d2efe355"
+    },
+    {
+        "CON_C21_A_SlobVisionUserIn_RefCol": "1c50acaa-ed79-4a52-9661-da3c0cfd6d48"
+    },
+    {
+        "CON_C21_A_SlobVisionUserIn_RefRow": "d3dd9b77-babb-47fc-bf74-ce2b252bc08c"
+    },
+    {
+        "CON_C21_A_Y160ZI01.PV": "d878dcf7-8ff1-46cd-962f-c8f9fc9793e1"
+    },
+    {
+        "CON_C21_D_2119XS20.PV": "d2f87315-02f3-48a5-85bb-c9220bb08562"
+    },
+    {
+        "CON_C21_D_SLOBC21": "3e598e7f-d27c-4c8a-a86d-f098cb3efae1"
+    },
+    {
+        "CON_C21_S_2100XI02.PV": "7f30b1d6-42ec-4866-afd0-1f730ca75567"
+    },
+    {
+        "CON_C21_S_2100XI06.PV": "19a88f2b-9723-42b1-9e56-9c9fa5149fe6"
+    },
+    {
+        "CRPLAAT": "2540570d-4e4e-4a82-9157-2722bd371bcb"
+    },
+    {
+        "CRPLAK": "843be3f5-4a35-4034-82df-a41ec4063efa"
+    },
+    {
+        "CR_NA_ONTZW": "beca80a9-62d4-49f7-9d36-f4b6c99e697a"
+    },
+    {
+        "CU_NA_ONTZW": "044e817b-8eec-4956-bbea-276f7e881976"
+    },
+    {
+        "C_RI_CONV": "07992a07-fa53-4143-8b1e-fa9178b8a749"
+    },
+    {
+        "C_SUBLANS_ADV": "f55bc87d-c6b5-4703-8274-dfb14685b372"
+    },
+    {
+        "DAT_BEG_INZET_SF": "3daebc96-8c0f-4bf8-a36e-6e395c816c00"
+    },
+    {
+        "DAT_KIEP_VRG_LAD": "74c85db1-7493-429d-9951-e6d335161d05"
+    },
+    {
+        "DAT_LAD_BER": "39a1661f-f875-4928-ab99-ad7c81922666"
+    },
+    {
+        "DOLOMIET_INSLAK": "3b870d30-ccfe-4587-b68a-3c960a31d0ed"
+    },
+    {
+        "DOL_ZACHT_RI_CONV": "b0879589-11fc-4899-bcad-8813bffe455e"
+    },
+    {
+        "DRAAISEL": "cc4d73b1-176d-4210-b241-e4c40f26b9c4"
+    },
+    {
+        "ERTS_RI_CONV": "be1fd4f2-7af3-424b-bcc9-c0fd7727e963"
+    },
+    {
+        "FE_NORM_RICHTW": "0b91ac90-069e-428b-874e-13314fc8efc9"
+    },
+    {
+        "FOSFOR_RICHTW": "d3182a20-affc-454b-804c-76ec4b081947"
+    },
+    {
+        "F_TERM_RI": "df6d5e0d-8284-4889-ac85-22c8bbe1b29d"
+    },
+    {
+        "GEMENGD": "1b682169-c764-4a37-8cd7-94fc6106a37f"
+    },
+    {
+        "GEPL_GIETD_GWI_CGM": "57b45481-6bc0-4438-a8b6-422f1d86461e"
+    },
+    {
+        "GEW_SL_CONV_2E_ST": "2eabcfb3-bd3f-42a5-81b3-ca76c198a73b"
+    },
+    {
+        "GEW_STLBAD_PRESET": "9ed173ab-5df6-4533-b802-62762c5f329b"
+    },
+    {
+        "GEW_STLBAD_RI_CONV": "93fb7c39-5d09-4087-beea-b24114c2598c"
+    },
+    {
+        "GIETDUUR_VERWACHT": "7dc9f42e-cd9e-4fbc-b8b0-8f9e59c0f637"
+    },
+    {
+        "GIETTEMP_BEREKEND": "ebe2c9f4-fc56-44d7-954f-f04fe80365ca"
+    },
+    {
+        "GIETTEMP_GEWENST": "568bc104-c0b4-4d8f-a02f-23a27d3b9dee"
+    },
+    {
+        "HBI": "d1389131-63b0-4d03-b69f-c58198c2c864"
+    },
+    {
+        "HBIDRI": "087c6f03-c1a1-4402-9590-487ad96c9a83"
+    },
+    {
+        "HEACKA": "90800c75-c470-4e7b-ae15-614f5fd7015a"
+    },
+    {
+        "HEACKBCD": "7c94721e-8c08-469d-9d3a-f083e081c381"
+    },
+    {
+        "HECKA": "6caa9ab9-843d-4b23-ac8b-0c6ca3a6e9ed"
+    },
+    {
+        "HECKBCD": "a9047a71-7d19-46c6-8b9d-4a58e2873fe9"
+    },
+    {
+        "HECKETT_A": "a3fd7854-7aeb-49b1-a881-1c03f0a7c794"
+    },
+    {
+        "HECKETT_B": "150b8e98-db19-49a3-a14a-4905486dec09"
+    },
+    {
+        "HECKETT_E": "a7bd41c1-7d2a-44b8-96dc-a34a1c54e1e9"
+    },
+    {
+        "IND_DEKS_VOR_LAD": "9525936c-f717-4691-bc3e-fbfa81fc466a"
+    },
+    {
+        "IND_SCHROT": "410d8d8f-e30f-4c26-875e-c8e9c8ebb939"
+    },
+    {
+        "IND_SLOBBEN": "6376f894-31dc-4bcd-aba0-82fc3a213365"
+    },
+    {
+        "INPUT_SCHROT_ADV": "0536e052-07b3-40de-b6e3-3769f8604191"
+    },
+    {
+        "KALK_BAS_RI_CONV": "4a207796-bbe4-4f1a-9f6a-77d7354a5b53"
+    },
+    {
+        "KIEPVERL_EXCL_PRST": "8e74fd57-8a40-4830-87fa-50cd9f1cf513"
+    },
+    {
+        "KIEPVERL_INCL_PRST": "62dcb4c0-a864-478f-a738-7fefe061fc6e"
+    },
+    {
+        "KOELERTS": "79344e45-be76-4bcf-b12a-2f013a482cf9"
+    },
+    {
+        "KOELSLAK": "df403ca7-e7f9-4b50-8b79-0ffaa79fedf0"
+    },
+    {
+        "KOELSPLIT": "e8b06eb8-8d7d-425f-a135-d9a9a53683d6"
+    },
+    {
+        "KOOKS_INSLAK": "752ee5fa-f2eb-4895-ad93-2a669dec94db"
+    },
+    {
+        "KOOP_SCHROT": "10ca2815-760d-405e-8ee0-4a03f6c78fb4"
+    },
+    {
+        "LANSHOOGTE_CORR": "b009cc90-6177-41a1-84bd-4b3509d4056d"
+    },
+    {
+        "LANSHOOGTE_MODEL": "4bfa4642-8b9f-4c6e-b9e5-61abe8c2dc75"
+    },
+    {
+        "LANSHOOGTE_RICHTW": "7e72dde5-ad58-4d32-9238-0948f7f790b1"
+    },
+    {
+        "LANSNUMMER": "a5c5f379-cbe5-43be-9902-9e44348af03e"
+    },
+    {
+        "LEGRHOOG": "c3c2910a-08e3-4bee-ac1d-cd87a4d0670f"
+    },
+    {
+        "LEGRLAAG": "fca205b9-1d3b-419d-b5db-3fbb55d286ea"
+    },
+    {
+        "LFT_LANS": "88d826b2-c280-42ae-9a7c-af5052a8b726"
+    },
+    {
+        "LNSGEW_VOOR_INZET": "50493382-60e5-452a-9ea7-f5302cd61272"
+    },
+    {
+        "MEDZWAAR": "519694fc-f35b-460e-bdb1-ba34b1a89adb"
+    },
+    {
+        "MENG": "260c1d70-5ac7-4f6e-9f8f-8299bc77f000"
+    },
+    {
+        "MENUCODE_SCHR_ADV": "96503c40-a262-46dc-a38f-14a8d01d0357"
+    },
+    {
+        "MGO_SLAK_RI_CONV": "7305ead8-4b12-4c86-ac32-60bd023ea68a"
+    },
+    {
+        "MN_NA_ONTZW": "dc886575-2440-4739-97bf-f343ec324435"
+    },
+    {
+        "MN_NORM_RICHTW": "7340daa8-d833-446f-8dbf-5384d5b09202"
+    },
+    {
+        "MN_RI_CONV": "d941b552-a1c1-4862-8566-10dd50480591"
+    },
+    {
+        "MN_SUBLANS_ADV": "81f80a4d-379f-45b4-8a98-d5444217cf97"
+    },
+    {
+        "MONSTERCODE_SLAK": "a2520fc9-981d-41d9-b04c-f71c095bcdf3"
+    },
+    {
+        "MO_NA_ONTZW": "1e7be28a-80f9-4af1-85a0-01c8b405ff27"
+    },
+    {
+        "NABER_RWAARDE_TPVW": "e504cfe6-63e2-482d-a8c7-732aa9840816"
+    },
+    {
+        "NI_NA_ONTZW": "2596187c-4489-44f1-b525-a96517c39374"
+    },
+    {
+        "N_HOEV_ADV_SUBLANS": "ba118039-22fc-4cea-b80a-2ae3a23016e0"
+    },
+    {
+        "N_SCHROT_OP_BODEM": "8bd5fddb-446f-4517-bad8-ec1c4afcecd5"
+    },
+    {
+        "O2_BEER": "62331300-e5e2-4315-9972-63bf3dfbdf72"
+    },
+    {
+        "O2_SNELH_RICHTW": "e64ac360-df05-47c2-bcb3-7a3058576430"
+    },
+    {
+        "ONTTIND": "3d5f842b-d709-43d0-89ba-af4129188b2b"
+    },
+    {
+        "OVERIG_SCHROT": "09405909-71bb-4163-938b-a438857455ee"
+    },
+    {
+        "PERC_VLSP_RI_CONV": "5bd5b202-b48f-4f54-a60b-0d845adc95e8"
+    },
+    {
+        "PLOEG_CONV_LADEN": "972356c6-f4f8-4aff-bd5b-0ba9a9125ac9"
+    },
+    {
+        "PRC_FESL_SLNS_ADV": "814bbe42-1a57-4654-9c6e-bf4b0d024e01"
+    },
+    {
+        "PROEF": "4adba01e-7cc0-4c00-9d37-b6b83599ef7b"
+    },
+    {
+        "PROEFNR_SF": "2e33f1ec-3a86-4a7d-8e8b-c3142c5f17b6"
+    },
+    {
+        "PUTNR_GEM_SCHROT": "bb1460b2-1373-44b8-8a42-9864469cc266"
+    },
+    {
+        "PUTNR_SCH_SCHROT": "b49c3edd-4731-43c6-b193-ecf265067ac3"
+    },
+    {
+        "PVK_SLK22_A_MDINT0176": "ed89f062-8223-4401-a6e3-09e1dedbd893"
+    },
+    {
+        "PVK_SLK22_A_MDINT0376": "7c88a48b-b01a-40af-b6ba-44378e9f0d0e"
+    },
+    {
+        "PVK_SLK22_A_MDINT0476": "ace05b37-9230-431f-a0aa-734fdfbd863d"
+    },
+    {
+        "PVK_SLK22_A_MREAL1046": "8323d442-ceab-4cc5-87cd-03ba207bef87"
+    },
+    {
+        "P_ADV_SUBLANS": "fe38566f-fa9c-4e4b-862c-b477374be6d8"
+    },
+    {
+        "P_NA_ONTZW": "1b3becc5-361c-464f-a087-1dee25eaafb7"
+    },
+    {
+        "P_NORM_RICHTW": "c04ddddf-5c90-4cdd-b7ac-240084bda7ec"
+    },
+    {
+        "REDEN_NABEH_CONV": "34645033-9aaf-4957-8f46-6b247bdf02cc"
+    },
+    {
+        "REST_STL_CONV": "3fcfc7c4-0ce9-48d3-992e-38eea7a8b667"
+    },
+    {
+        "RETRY_GEW": "feaf917b-a709-48d0-9962-0476f4c88738"
+    },
+    {
+        "RETRY_LADINGNR": "b559ac51-83f5-4be8-bd2e-55d105704a0f"
+    },
+    {
+        "RETSTL_C": "e5766ab4-7d46-4386-9d90-07d228e7e690"
+    },
+    {
+        "RETSTL_GEW": "c897e74f-2d7a-4d74-935d-068cca8bb91f"
+    },
+    {
+        "RETSTL_LADINGNR": "0a80bdf1-c8f4-43c5-ad69-adce554edfa6"
+    },
+    {
+        "RETSTL_MN": "6e53cb10-d232-4a8e-a320-855cbac4ff2e"
+    },
+    {
+        "RETSTL_P": "7575d8cb-ab09-4d3a-91a4-62081d27a639"
+    },
+    {
+        "RETSTL_S": "4ef7a7b8-86e7-4297-9ed4-0e59a0f45b9a"
+    },
+    {
+        "RETSTL_SI": "2126c51d-16d1-4e83-b429-1c277b1b0ac7"
+    },
+    {
+        "RETSTL_SLK_HOEV_OP": "111d9044-0c2f-4550-abea-d98010e0d9e1"
+    },
+    {
+        "RETSTL_TEMP": "c803d504-cdee-42e3-9c92-bf7ff5686a18"
+    },
+    {
+        "RETSTL_TEMP_IN_CON": "408dfdda-d7b0-4e04-9943-7cf7cfbf6be2"
+    },
+    {
+        "ROZABEREN": "dbd77558-14e7-4a82-a33b-9f46af3576b3"
+    },
+    {
+        "RST_BUNKW_S_2142XN101": "702eaa30-5a0c-4c6d-a581-3be66b8b2e04"
+    },
+    {
+        "RST_BUNKW_S_2142XN102": "b4dac50a-8c7f-41bc-bbf3-6155f0f97364"
+    },
+    {
+        "RST_BUNKW_S_2142XN103": "b07a10b0-f09b-4376-8039-1bb08d286bc3"
+    },
+    {
+        "RST_BUNKW_S_2142XN104": "615f57de-5e31-4da2-b283-b0486900c2ed"
+    },
+    {
+        "RST_BUNKW_S_2142XN105": "dfad9fa6-a3df-46cc-92d7-3c65cf7d2a33"
+    },
+    {
+        "RST_BUNKW_S_2143XN106": "396b5009-ef41-44d2-9db3-139e86074c61"
+    },
+    {
+        "RST_BUNKW_S_2143XN107": "30b14a8d-df9c-4c13-8454-53787837d0a0"
+    },
+    {
+        "RST_BUNKW_S_2143XN108": "5aa13b0f-b951-478f-a7fc-3fab5f473dd8"
+    },
+    {
+        "RST_BUNKW_S_2143XN109": "d7666e18-f819-4d97-8146-d982e5ebb2b5"
+    },
+    {
+        "RST_BUNKW_S_2143XN110": "17f3ffc3-61a7-42d6-a019-7adb525a9c88"
+    },
+    {
+        "RYBROODJES": "5de6a02c-78f3-461e-9052-c73f28d3234a"
+    },
+    {
+        "RYHOOGSI": "bb20996d-6c3c-4126-af4c-ff3201ee0ae2"
+    },
+    {
+        "RYSCHOLLEN": "dfcc0ef7-0252-4bc6-9368-7b8881bee7ba"
+    },
+    {
+        "RY_GEW_NA_ONTZW": "0895b004-0384-4c68-bb40-713112f714cc"
+    },
+    {
+        "RY_VAST": "b14652a6-7dae-4790-814d-4ea318a6679b"
+    },
+    {
+        "SALDO_TEMP": "d51bf004-a484-4499-baff-226ced610f8c"
+    },
+    {
+        "SCHOON": "e0cb564c-5cac-463f-9e75-55d45273d191"
+    },
+    {
+        "SCHOONINT": "d377d386-c5b4-45cb-85f9-707525cd5d2f"
+    },
+    {
+        "SCHROTBAK_NR": "7a98d938-b82f-4caf-b468-19ac0a2d294b"
+    },
+    {
+        "SCHROT_GEW_TOTAAL": "ba18cd62-4a66-4bc4-b4b5-372dcbca1d84"
+    },
+    {
+        "SCHROT_TOTAAL": "1ffb555a-cb80-4703-ae05-de032c87ec42"
+    },
+    {
+        "SHREDDERZN": "06e9e2e2-8616-4ea2-b034-9451d9171c33"
+    },
+    {
+        "SI_NA_ONTZW": "de9f8899-56e6-4fcc-b6c9-80443a2adfa8"
+    },
+    {
+        "SLAKCONDITIE_CODE": "c8dabc91-4aff-40a0-bbe3-be00772499fb"
+    },
+    {
+        "SLAKGEW_CONV_BER": "5ac7ea7b-9027-4603-8f60-3b92900f5c2e"
+    },
+    {
+        "SLAKGEW_NA_ONTZW": "425665d2-7ea4-41d6-8e36-0273875e1cea"
+    },
+    {
+        "SLAK_INSLAK": "f697d8e4-04ce-41f2-ba8b-6fe7613915af"
+    },
+    {
+        "SLUITP_WBLNS_RI": "ea065355-7236-4716-b719-ebb6e0c56c40"
+    },
+    {
+        "SN_NA_ONTZW": "ec06e498-6344-429c-ae23-0cb4c10ec342"
+    },
+    {
+        "STAALBADHOOGTE": "45ca48e4-3c46-448e-b6e6-8130ebdccc79"
+    },
+    {
+        "SUBLANSHOOGTE_STOP": "01fb4df4-8158-4bae-aee5-f8bc8826624e"
+    },
+    {
+        "SUBL_DIEPTE_MODEL": "3cffd070-edb9-48ab-811e-3aca2c4d7341"
+    },
+    {
+        "S_ADV_SUBLANS": "50ea5ff0-a211-49d8-9000-5bb3cf204d9a"
+    },
+    {
+        "S_NA_ONTZW": "5624a940-f711-4d09-baaa-364abd42265a"
+    },
+    {
+        "S_NA_ONTZW_OPER": "f09e4602-35d4-4ee1-92e0-f230c3967596"
+    },
+    {
+        "S_NORM_RICHTW": "4d546fff-43a8-47fa-9881-11be3de949e1"
+    },
+    {
+        "TAPVERLIES_PRESET": "3d20cf34-d26e-4bbb-8303-ba74fa4ae812"
+    },
+    {
+        "TAP_DUUR": "588ba3a6-989e-40d8-a9ef-99ccd01c8821"
+    },
+    {
+        "TEMPERATUUR_EIND": "604f5b7b-d2a5-4f02-822e-67d0c02667d7"
+    },
+    {
+        "TEMP_CORR_DWTR": "7c03cb32-a52e-4d22-b6f6-ebfd5c39e65c"
+    },
+    {
+        "TEMP_DWARSTR_RICHT": "25b154ef-fdfe-438d-b9be-38e4b226aa79"
+    },
+    {
+        "TEMP_STAALBAD_RI": "17746370-b250-4db8-8adf-ae7ae820035f"
+    },
+    {
+        "TEMP_VVRP_BER": "ade37746-471a-401d-9b8e-595d6f52e71d"
+    },
+    {
+        "TI_NA_ONTZW": "478fbd50-b33c-42fd-9efe-614c8a9a3ad4"
+    },
+    {
+        "TMP_STAALB_LNS_ADV": "46945fb0-9b71-4d83-bf88-02818412f581"
+    },
+    {
+        "TREKST_VERW": "cc2a4c55-26ea-4e2f-a7e2-dafb6bd7d280"
+    },
+    {
+        "TVVSP": "9dac365a-7683-43c9-99a6-f6b545e457e5"
+    },
+    {
+        "TYDR_END_BEG_TP_VW": "bd0253c8-51fa-4b64-bbb5-36ee5fcdcb95"
+    },
+    {
+        "TYDR_VW_LT_M_BEG_T": "8f4a22a5-3a16-4a12-8329-07a85d1fbf7d"
+    },
+    {
+        "TYDR_VW_LT_M_BG_TT": "7d1484bd-d599-4f32-8b3b-27f91634c30c"
+    },
+    {
+        "TYDST_LAD_BER": "60cb32a6-e39a-4d93-bc86-a0c4159e8e2e"
+    },
+    {
+        "TYD_BEG_INZET_SF": "69908ea0-7406-47c9-82e5-0dcb8d9c00b3"
+    },
+    {
+        "TYD_KIEP_VRG_LAD": "34a2b064-a696-4e08-80f4-53d55df9239c"
+    },
+    {
+        "TYD_SF": "f5529fd7-8876-47ce-873d-66c2346e667b"
+    },
+    {
+        "TYPE_DOBBER_COMBI": "d892ec4c-0b19-4995-aa4e-7f730962b323"
+    },
+    {
+        "TYPE_INZET": "8261883f-ed54-4b51-901a-6b70428a5331"
+    },
+    {
+        "T_STOLPUNT_TOT": "c85f0823-9897-4b20-8a8e-4e568aceac33"
+    },
+    {
+        "VERTIND": "86f218d5-f7f4-4fd9-9ab4-42eb50832455"
+    },
+    {
+        "V_NA_ONTZW": "5774059e-98db-4f0d-a045-1e68f581c0f7"
+    },
+    {
+        "WACHTTYDS_TMET_TOT": "81bce7ee-9605-4d78-9a67-d9ff1660a62f"
+    },
+    {
+        "WALSROLLEN_SCHROT": "27864c0e-5ecb-47aa-89f9-dc58f4a5a0ff"
+    },
+    {
+        "WEEGBRUGNR_SCHROT": "eb3d6c34-440f-46c1-806e-f55339b8709f"
+    },
+    {
+        "WRK_AVI_SCHROT": "a7f095b3-d04c-4043-874c-a06b8253e7c2"
+    },
+    {
+        "WRK_DIV_SCHROT": "89ebc68f-9b1f-435d-a7b2-188febfc56bd"
+    },
+    {
+        "WRK_DRI_HBI_SCHROT": "d8be3736-50f3-43f6-b628-0f381957b156"
+    },
+    {
+        "WRK_HECKETT_A": "4c306b6c-8fd7-4ecb-9053-7d76fd658bee"
+    },
+    {
+        "WRK_HECKETT_BCD": "e6f7c88d-15b1-4916-9636-8f69c3ffb595"
+    },
+    {
+        "WRK_MENG_SCHROT": "9b158d96-9c70-440d-bd5b-dd6ab2522094"
+    },
+    {
+        "WRK_RIJKOUD": "7d3097e8-874c-426d-939d-e916e8505246"
+    },
+    {
+        "WRK_RIJKOUD_LAAGS": "9c602843-d8ff-477e-87c0-2ba049b28d1b"
+    },
+    {
+        "WRK_SCHOON_SCHROT": "68abca4e-b8b2-46d5-b50b-f8882b011fa4"
+    },
+    {
+        "WRK_ZWAAR_SCHROT": "3a47d906-277b-488c-b3ce-418228cbd5ce"
+    },
+    {
+        "ZUURST_RI_CONV": "0906bd70-a9d2-4c09-8049-55f62de7e2c5"
+    },
+    {
+        "ZUURST_SUBLANS_ADV": "3b8f2664-6d65-461a-9847-bda669486923"
+    },
+    {
+        "ZWAAR": "04444179-d318-4f6f-9479-462de1c900a1"
+    },
+    {
+        "ZWAVEL_RICHTW": "b237b00e-d78a-4eb6-8251-3e57639ddebe"
+    },
+    {
+        "campagne": "204d33d7-772f-46ab-a2f0-bc90a49e4c21"
+    },
+    {
+        "flux_Erts_4": "b6894692-269b-43cc-80ab-7869d2c78068"
+    },
+    {
+        "flux_Grind_5": "ae7121e3-56c5-4ddd-8059-02e5bd9a498b"
+    },
+    {
+        "flux_Kalk_1": "664dcfcb-f3c4-4005-bd21-ea3f6834c59c"
+    },
+    {
+        "flux_Slak_3": "08fcbf2f-59ae-4424-9448-ea85e7e5b9b1"
+    },
+    {
+        "flux_Split_6": "d5798f59-e0c8-4ad3-a1aa-77b5c8b30a72"
+    },
+    {
+        "flux_ZDol_2": "04e278d7-69b7-498f-87e4-51614f7e4329"
+    },
+    {
+        "leeftijd": "07e6ec8c-4b76-4a71-970a-a4fb216e79e7"
+    },
+    {
+        "plomplading": "18898b76-6126-4e2d-8a6d-264a91beb401"
+    },
+    {
+        "retourstaal": "7e1abce4-676c-48fc-8e08-8555170d166a"
+    },
+    {
+        "target": "cc219e44-c5d6-471e-94b7-436ab8122735"
+    },
+    {
+        "control": "1f93edae-dd37-488b-b6b1-be48b1dabfd1"
+    },
+    {
+        "synchro": "ac616c7f-5082-402b-a1fd-3fe1d18b3baa"
+    }
+]
