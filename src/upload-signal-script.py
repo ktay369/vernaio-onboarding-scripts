@@ -11,7 +11,7 @@ def make_post_request(url, data, token):
         response = requests.post(url, json=data, headers=headers)
 
         # Check if the request was successful (status code 200)
-        if response.status_code == 200:
+        if response.status_code == 201:
             print("POST request successful:")
             print("Response Content:", response.text)
         else:
@@ -45,7 +45,7 @@ def create_request_json():
             'description': entry.get("description", ""),
             # 'dataType': entry.get("dataType"),
             # 'dataType': {'_type': entry.get("dataType")},
-            'dataType': {'_type': 'Float'},
+            'dataType': {'_type': entry.get("dataType").capitalize()},
             'unitName': entry.get("description", ""),
             'unitSymbol': entry.get("description", ""),
             # 'categoryRef': entry.get("categoryRef", ""),
@@ -57,25 +57,18 @@ def create_request_json():
 
 def main():
     # account = input("Enter your account number: ")
-    # bearer_token = input("Enter your bearer token: ")
+    bearer_token = input("Enter your bearer token: ")
     # env = input("Enter your environment: ")
 
     account = 4930
-    bearer_token = (
-        'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVSU3V5bXZ4T3o3Vm1ieElUbV83QyJ9.'
-        'eyJvcmciOiIxOTY3NTIxNi1mZmJhLTRhYzItOWFhZC1kMzI3NjZkN2RjZWYiLCJpc3MiOiJodHRwc'
-        'zovL2xvZ2luLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQvIiwic3ViIjoiYXV0aDB8NjRiNTU3Mzg2YT'
-        'k4OWI1MTA2MzBiYzc1IiwiYXVkIjpbImh0dHBzOi8vYXBpLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQ'
-        'vIiwiaHR0cHM6Ly92ZXJuYWlvLXZjLWRlbW8tZXUxLmV1LmF1dGgwLmNvbS91c2VyaW5mbyJdLCJp'
-        'YXQiOjE2OTE0MzY4MzEsImV4cCI6MTY5MTQ0MDQzMSwiYXpwIjoiZXBNQ09mbHFVeHJ2T2E1TW1Ia'
-        '2RZSjgwckFsaGY4bF'
-        'AiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwib3JnX2lkIjoib3JnX0s2WkFrQzZXd2l'
-        'QTzl6ajUiLCJwZXJtaXNzaW9ucyI6WyJhZG1pbiJdfQ.'
-        'QyIT8vPkNEPWKc6Mmr3azVrgIstgSbrqckkWE6y5Jev_Oo8iETDFYoojzMXwwkALtPK-YuMpDfxGiE'
-        'hcSj8CjtQRx7X7u345Z_8izeX12kmKjiHGBfVIPS0nktzVXE8Z2EwHQ3_7Pp8BuvMhteXkYdJ2W5Pb'
-        'qGoxYXqL8_fAhuiFrvq9dyTQIYq4T75-hUjnoVB0jq80uhMTadSW5jnJBSIOkRvSiWrYP42Hw_1oDW'
-        'NwDqBv5OgQAD53sos3nim66FBFuqho9p1thr1V-pMn22FXKVJPrbhcN1F33yey8-m3kwrio1J42tL1mk78uRnRwQwdcF-uRtS9-ohqz_tlhQ'
-    )
+    # bearer_token = (
+    #     'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVSU3V5bXZ4T3o3Vm1ieElUbV83QyJ9.eyJvcmciOiIxOTY3NTIxNi1mZmJhLTR'
+    #     'hYzItOWFhZC1kMzI3NjZkN2RjZWYiLCJpc3MiOiJodHRwczovL2xvZ2luLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQvIiwic3ViIjoiYXV0aDB8N'
+    #     'jRiNTU3Mzg2YTk4OWI1MTA2MzBiYzc1IiwiYXVkIjpbImh0dHBzOi8vYXBpLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQvIiwiaHR0cHM6Ly92ZX'
+    #     'JuYWlvLXZjLWRlbW8tZXUxLmV1LmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2OTE0NDA2MjIsImV4cCI6MTY5MTQ0NDIyMiwiYXpwIjoi'
+    #     'ZXBNQ09mbHFVeHJ2T2E1TW1Ia2RZSjgwckFsaGY4bFAiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwib3JnX2lkIjoib3JnX0s2Wk'
+    #     'FrQzZXd2lQTzl6ajUiLCJwZXJtaXNzaW9ucyI6WyJhZG1pbiJdfQ.VFZGVDJCAV7f2pAPcpWgmakoPluxO7hrE7FT_9F2-mzXRzIXpvUtesv5sMiquuPLQJqzfD-LK70Qmr0WaLYQwIZBmko52kWWQJwQDOogO_USS58Av_SAnhBrzCMaZrp9aeX4MoY1U2M9NSEY42R_yCmDZN-nKnAcgJnu33kLgGZU_wZys4vlaypEz7Q4QG-C3Yoaefsu74eaX4fUKaliP_J5_G0hv5tNO46ANd6Vn_4hcjiMO3ZRNbnqgcXN9n9JG3HaiBIfolnY06CIxI250utJQ9kPHewOaAU53zc2U_W66XWQDpcshKcqMHFBOwWqjd8NM8Htu_ndpMY5HbQung'
+    # )
     env = 'demo'
 
     # bearer_token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVSU3V5bXZ4T3o3Vm1ieElUbV83QyJ9.eyJvcmciOiIxOTY3NTIxNi1mZmJhLTRhYzItOWFhZC1kMzI3NjZkN2RjZWYiLCJpc3MiOiJodHRwczovL2xvZ2luLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQvIiwic3ViIjoiYXV0aDB8NjRiNTU3Mzg2YTk4OWI1MTA2MzBiYzc1IiwiYXVkIjpbImh0dHBzOi8vYXBpLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQvIiwiaHR0cHM6Ly92ZXJuYWlvLXZjLWRlbW8tZXUxLmV1LmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2OTE0MzY4MzEsImV4cCI6MTY5MTQ0MDQzMSwiYXpwIjoiZXBNQ09mbHFVeHJ2T2E1TW1Ia2RZSjgwckFsaGY4bFAiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwib3JnX2lkIjoib3JnX0s2WkFrQzZXd2lQTzl6ajUiLCJwZXJtaXNzaW9ucyI6WyJhZG1pbiJdfQ.QyIT8vPkNEPWKc6Mmr3azVrgIstgSbrqckkWE6y5Jev_Oo8iETDFYoojzMXwwkALtPK-YuMpDfxGiEhcSj8CjtQRx7X7u345Z_8izeX12kmKjiHGBfVIPS0nktzVXE8Z2EwHQ3_7Pp8BuvMhteXkYdJ2W5PbqGoxYXqL8_fAhuiFrvq9dyTQIYq4T75-hUjnoVB0jq80uhMTadSW5jnJBSIOkRvSiWrYP42Hw_1oDWNwDqBv5OgQAD53sos3nim66FBFuqho9p1thr1V-pMn22FXKVJPrbhcN1F33yey8-m3kwrio1J42tL1mk78uRnRwQwdcF-uRtS9-ohqz_tlhQ'
