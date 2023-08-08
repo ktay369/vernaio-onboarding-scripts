@@ -53,7 +53,7 @@ def create_request_json():
             'dataType': {'_type': entry.get("dataType").capitalize()},
             'unitName': entry.get("unitName", ""),
             'unitSymbol': entry.get("unitSymbol", ""),
-            'categoryRef': '3fa85f64-5717-4562-b3fc-2c963f66afa6'
+            'categoryRef': '00000000-0000-0000-0000-000000000000'
         }
         new_entries.append(new_entry)
     return new_entries
@@ -77,14 +77,26 @@ def main():
 
     # bearer_token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlVSU3V5bXZ4T3o3Vm1ieElUbV83QyJ9.eyJvcmciOiIxOTY3NTIxNi1mZmJhLTRhYzItOWFhZC1kMzI3NjZkN2RjZWYiLCJpc3MiOiJodHRwczovL2xvZ2luLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQvIiwic3ViIjoiYXV0aDB8NjRiNTU3Mzg2YTk4OWI1MTA2MzBiYzc1IiwiYXVkIjpbImh0dHBzOi8vYXBpLmV1MS52ZXJuYWlvLWRlbW8uY2xvdWQvIiwiaHR0cHM6Ly92ZXJuYWlvLXZjLWRlbW8tZXUxLmV1LmF1dGgwLmNvbS91c2VyaW5mbyJdLCJpYXQiOjE2OTE0MzY4MzEsImV4cCI6MTY5MTQ0MDQzMSwiYXpwIjoiZXBNQ09mbHFVeHJ2T2E1TW1Ia2RZSjgwckFsaGY4bFAiLCJzY29wZSI6Im9wZW5pZCBwcm9maWxlIGVtYWlsIiwib3JnX2lkIjoib3JnX0s2WkFrQzZXd2lQTzl6ajUiLCJwZXJtaXNzaW9ucyI6WyJhZG1pbiJdfQ.QyIT8vPkNEPWKc6Mmr3azVrgIstgSbrqckkWE6y5Jev_Oo8iETDFYoojzMXwwkALtPK-YuMpDfxGiEhcSj8CjtQRx7X7u345Z_8izeX12kmKjiHGBfVIPS0nktzVXE8Z2EwHQ3_7Pp8BuvMhteXkYdJ2W5PbqGoxYXqL8_fAhuiFrvq9dyTQIYq4T75-hUjnoVB0jq80uhMTadSW5jnJBSIOkRvSiWrYP42Hw_1oDWNwDqBv5OgQAD53sos3nim66FBFuqho9p1thr1V-pMn22FXKVJPrbhcN1F33yey8-m3kwrio1J42tL1mk78uRnRwQwdcF-uRtS9-ohqz_tlhQ'
 
-    url = f"https://iiot-signal-metadata-service-v1.eu1.vernaio-{env}.cloud/accounts/{account}/signals"
+    url = f"https://iiot-signal-metadata-service-v1.eu1.vernaio-{env}.cloud/accounts/{account}/"
 
     # `https://${domain}-service-v1.eu1.vernaio-${env}.cloud/accounts/${account}/` + urlPath
+
+    default_category = {
+        'id': '00000000-0000-0000-0000-000000000000',
+        'title': 'default',
+        'description': 'refers to signals generated from metadata',
+        # 'dataType': entry.get("dataType"),
+        # 'dataType': {'_type': entry.get("dataType")},
+        'dataType': {'_type': 'String'},
+        'parentRef': ''
+    }
+
+    make_post_request(url + "signal-categories", default_category, bearer_token)
 
     json_list = create_request_json()
 
     for entry in json_list:
-        make_post_request(url, entry, bearer_token)
+        make_post_request(url + "signals", entry, bearer_token)
 
     # make_post_request(url, data, bearer_token)
 
