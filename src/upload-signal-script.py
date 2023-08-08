@@ -14,9 +14,14 @@ def make_post_request(url, data, token):
         if response.status_code == 201:
             print("POST request successful:")
             print("Response Content:", response.text)
+        # elif response.status_code == 401:
+        #     print("POST request successful:")
+        #     print("Response Content:", response.text)
         else:
             print("POST request failed with status code:", response.status_code)
             print("Response Content:", response.text)
+            if response.status_code == 401:
+                raise Exception("Error: Check bearer token.")
     except requests.exceptions.RequestException as e:
         print("An error occurred:", e)
 
@@ -46,9 +51,8 @@ def create_request_json():
             # 'dataType': entry.get("dataType"),
             # 'dataType': {'_type': entry.get("dataType")},
             'dataType': {'_type': entry.get("dataType").capitalize()},
-            'unitName': entry.get("description", ""),
-            'unitSymbol': entry.get("description", ""),
-            # 'categoryRef': entry.get("categoryRef", ""),
+            'unitName': entry.get("unitName", ""),
+            'unitSymbol': entry.get("unitSymbol", ""),
             'categoryRef': '3fa85f64-5717-4562-b3fc-2c963f66afa6'
         }
         new_entries.append(new_entry)
